@@ -1,0 +1,15 @@
+id: 2dc2675c-c97b-47bd-98e0-a2205581a368
+timestamp: 2023-04-24T06:34:14Z
+username: wyatt
+source: VSCODE
+accelerator:
+  name: weatherforecast-csharp
+  source:
+    image: registry.tanzu.vmware.com/tanzu-application-platform/tap-packages@sha256:d08db384477a6a0b1b288b70aea1c1d24b7ea38edd726b4c1b977128e625046b
+fragments:
+  - name: tap-workload
+    source:
+      image: registry.tanzu.vmware.com/tanzu-application-platform/tap-packages@sha256:dbf0dedb6848ad8a7704c1c19465a1ddae9039b0e63c1dd0df3e2ed9cbda6093
+options:
+  applicationName: Sample
+  projectName: weatherforecast-csharp
